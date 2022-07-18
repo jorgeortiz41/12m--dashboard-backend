@@ -2,13 +2,7 @@ let mongoose= require('mongoose')
 
 const EventScheme= new mongoose.Schema({
 
-    operatorname:{
-
-     type:String,
-
-     required:true   
-
-    },
+    operatorname:String,
 
     Date:String,
 
