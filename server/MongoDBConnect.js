@@ -1,6 +1,6 @@
 mongoose= require('mongoose')
 
-const MONG_URI= 'mongodb://localhost:27017/testdb'
+const MONG_URI= 'mongodb://localhost:27017/12mdb'
 
 mongoose.connect(MONG_URI,{useUnifiedTopology:true,useNewUrlParser:true})
 
