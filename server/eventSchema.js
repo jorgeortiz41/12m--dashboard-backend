@@ -2,18 +2,19 @@ let mongoose= require('mongoose')
 
 const EventScheme= new mongoose.Schema({
 
-    operatorname:String,
+    operator:String,
 
-    Date:String,
+    date:String,
 
-    EventCode:String,
+    eventcode:String,
 
-    TimeStamp:String, 
+    comment:String,
 
-    Comment:String,
+    eventID:String,
 
-    EventID:String,
-
-     }) 
+     },
+     {
+        timestamps:true
+    }) 
 
     module.exports= mongoose.model('eventmodel',EventScheme,'EventCollection2')
