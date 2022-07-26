@@ -4,6 +4,8 @@ const Event = require("./models/Event");
 const cors = require("cors");
 const Eventroutes = require("./routes/events");
 const Prproutes = require("./routes/prp");
+const Ifloroutes = require("./routes/iflo");
+const Monitorroutes = require("./routes/monitor");
 const MongoDBConnect = require("./MongoDBConnect");
 
 //create express app
@@ -12,7 +14,7 @@ const app = express();
 //app use
 app.use(cors());
 app.use(express.json());
-app.use("/api", Eventroutes, Prproutes);
+app.use("/api", Eventroutes, Prproutes, Ifloroutes, Monitorroutes);
 
 //get default page
 app.get("/", (req, res) => {
