@@ -21,7 +21,14 @@ const schema= new mongoose.Schema({
         type:String,
         required:true
     },
-
+    offset:{
+        type:String,
+        required:false
+    },
+    rate:{
+       type:String,
+         required:false 
+    },
     curp:{
         type:String,
         required:true

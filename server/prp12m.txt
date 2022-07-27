@@ -1,0 +1,17 @@
+Mode: pwrOff
+ast: 16:26:01.0 dut1Ms: -48 secM:59161
+lmst: 10:30:36.6 mjd:59759 tolA: 60
+Pos: 09:53:09.3 7:55:35.7 Cs:J Tm:imd
+Off:
+Rat:
+Rslt: 09:53:09.3 7:55:35.8 Cs:J
+ha : 00:36:16.8
+	az deg	el deg	toErr
+cor:	-0.3391	0.0878
+reqP:	220.8009	76.3556
+curP:	201.8238	78.7662
+errP:	18.9771	-2.4106	68865.7"
+
+vHel:	-22.4581 vGeo:-0.0688	km/sec
+stat:| OK
+cumO: 0.00000 0.00000 deg

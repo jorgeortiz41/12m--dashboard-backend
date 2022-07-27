@@ -7,9 +7,28 @@ const Prproutes = require("./routes/prp");
 const Ifloroutes = require("./routes/iflo");
 const Monitorroutes = require("./routes/monitor");
 const MongoDBConnect = require("./MongoDBConnect");
+const spawn = require("child_process").spawn;
 
 //create express app
 const app = express();
+
+//use spawn to run the python prpreader.py script
+const pythonProcess = spawn("python", ["prpreader.py"]);
+
+//show python output
+pythonProcess.stdout.on("data", data => {
+  console.log(`stdout: ${data}`);
+});
+
+//show python error
+pythonProcess.stderr.on("data", data => {
+  console.log(`stderr: ${data}`);
+});
+
+//close python process
+pythonProcess.on("close", code => {
+  console.log(`child process exited with code ${code}`);
+});
 
 //app use
 app.use(cors());
