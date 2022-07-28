@@ -12,6 +12,11 @@ const schema= new mongoose.Schema({
         required:true
     },
 
+    time:{
+        type:String,
+        required:true
+    },
+
     eventcode:{
         type:String,
         required:true
@@ -22,15 +27,16 @@ const schema= new mongoose.Schema({
         required:false
     },
 
-    eventID:{
+    shift:{
         type:String,
         required:true
     },
-
-     },
-     {
-        timestamps:true
-    }) 
+    
+    timestamp:{
+        type:String,
+        required:true
+    }
+     }) 
 
     module.exports= mongoose.model("Event",schema,"EventCollection")
     
