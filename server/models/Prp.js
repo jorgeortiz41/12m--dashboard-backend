@@ -2,6 +2,16 @@ let mongoose= require('mongoose')
 
 const schema= new mongoose.Schema({
 
+    mode:{
+        type: String,
+        required:true
+    },
+
+    stat:{
+        type: String,
+        required:true
+    },
+
     ast:{
         type:String,
         required:true
@@ -20,14 +30,6 @@ const schema= new mongoose.Schema({
     pos:{
         type:String,
         required:true
-    },
-    offset:{
-        type:String,
-        required:false
-    },
-    rate:{
-       type:String,
-         required:false 
     },
     curp:{
         type:String,
@@ -49,6 +51,7 @@ const schema= new mongoose.Schema({
         type:String,
         required:true
     },
+    
 
 }) 
 
