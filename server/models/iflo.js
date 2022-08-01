@@ -2,43 +2,51 @@ let mongoose= require('mongoose')
 
 const schema= new mongoose.Schema({
 
-    ast:{
+    if1frq:{
         type:String,
         required:true
     },
 
-    lmst:{
+    vlbafrq:{
         type:String,
         required:true
     },
 
-    mjd:{
+    gainif:{
         type:String,
         required:true
     },
 
-    pos:{
+    mix1:{
         type:String,
         required:true
     },
 
-    curp:{
+    mix2:{
         type:String,
         required:true
     },
-    errp:{
+    mix3:{
         type:String,
         required:true
     },
-    reqp:{
+    mix4:{
         type:String,
         required:true
     },
-    vhel:{
+    mix5:{
         type:String,
         required:true
     },
-    vgeo:{
+    mix6:{
+        type:String,
+        required:true
+    },
+    mix7:{
+        type:String,
+        required:true
+    },
+    mix8:{
         type:String,
         required:true
     },

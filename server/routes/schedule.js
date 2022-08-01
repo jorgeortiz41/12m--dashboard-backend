@@ -20,7 +20,6 @@ Schedulerouter.get("/schedules/:date", async (req, res) => {
     res.send(schedule)
 })
 
-
 //post new event
 Schedulerouter.post("/addschedule", async (req, res) => {
     const schedule = new Schedule(req.body)

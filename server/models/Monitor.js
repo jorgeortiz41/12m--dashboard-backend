@@ -2,43 +2,43 @@ let mongoose= require('mongoose')
 
 const schema= new mongoose.Schema({
 
-    ast:{
+    azm:{
         type:String,
         required:true
     },
 
-    lmst:{
+    el:{
         type:String,
         required:true
     },
 
-    mjd:{
+    contcls:{
         type:String,
         required:true
     },
 
-    pos:{
+    prgstat:{
         type:String,
         required:true
     },
 
-    curp:{
+    curst:{
         type:String,
         required:true
     },
-    errp:{
+    onsrc:{
         type:String,
         required:true
     },
-    reqp:{
+    wreset:{
         type:String,
         required:true
     },
-    vhel:{
+    wstop:{
         type:String,
         required:true
     },
-    vgeo:{
+    wreboot:{
         type:String,
         required:true
     },
