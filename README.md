@@ -2,11 +2,11 @@
 
 ## MongoDB Setup
 
-### Install MongoDB Community Server
+### `Install MongoDB Community Server`
 
 initialize connection in port `:27017` and create a database named `12mdb`\
 
-### Install MongoDB Database Tools
+### `Install MongoDB Database Tools`
 
 If you have the collection files follow [this](https://www.geeksforgeeks.org/import-data-to-mongodb/) guide to import them to the database\
 
