@@ -1,5 +1,4 @@
 # 12m--dashboard-backend
-# Getting Started with Node.js Server
 
 #MongoDB Setup
 
