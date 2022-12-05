@@ -49,5 +49,5 @@ every 5 seconds. The time argument can be modified in 'ms'.
 Use [Postman](https://www.postman.com/) to test api routes.\
 The format should be `localhost:5000/api/<route-name>` where\
 you replace `<route-name>` with the route name which you are testing and add the body in json format, following the Model format.\
-Route names are found next to its respective function.
+Route names are found next to its respective function in the files inside the Router folder.
 
