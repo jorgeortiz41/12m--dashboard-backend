@@ -9,7 +9,7 @@ initialize connection in port `:27017` and create a database named `12mdb`\
 
 ### Install MongoDB Database Tools
 
-If you have the collection files follow this[https://www.geeksforgeeks.org/import-data-to-mongodb] guide to import them to the database\
+If you have the collection files follow [https://www.geeksforgeeks.org/import-data-to-mongodb](this) guide to import them to the database\
 
 ## Available Scripts
 
