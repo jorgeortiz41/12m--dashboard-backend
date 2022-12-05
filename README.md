@@ -25,21 +25,21 @@ Runs the server in [http://localhost:5000](http://localhost:5000).\
 ### Models
 
 This folder contains the format data should be in the database,\
-if the data is wrongfully formatted, won't be submitted.\
+if the data is wrongfully formatted, won't be submitted.
 
 ### Routes
 
 This folder contains the CRUD operations for the different collections in the database\
-The routes are used by the frontend to communicate with the server.\
+The routes are used by the frontend to communicate with the server.
 
 ### Server.js
 
-This file initializes the server and adds necessary packages.\
+This file initializes the server and adds necessary packages.
 
 ## Testing
 
 ### Automatic Dummy Data Upload
 
 Uncomment the last line in the `server.js` file and save it.\
-This will start uploading data to the Prp, Monitor, and Iflo collections\
+This will start uploading data to the Prp, Monitor, and Iflo collections
 every 5 seconds. The time argument can be modified in 'ms'.
